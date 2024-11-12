@@ -1,0 +1,84 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript Search Filter</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="slider.css" />
+  </head>
+  <body>
+    <div class="search-container main-container">
+      <i class="fa fa-search"></i>
+      <input type="text" id="search-input" placeholder="Search..." autocomplete="off"/>
+    </div>
+    <div class="main-container">
+      <div id="nothing-alert">Nothing Found</div>
+      <div class="cards"><h2 class="icon-name">Audi</h2></div>
+      <div class="cards"><h2 class="icon-name">BMW</h2></div>
+      <div class="cards"><h2 class="icon-name">Chevrolet</h2></div>
+      <div class="cards"><h2 class="icon-name">Dacia</h2></div>
+      <div class="cards"><h2 class="icon-name">Dodge</h2></div>
+      <div class="cards"><h2 class="icon-name">Ferrari</h2></div>
+      <div class="cards"><h2 class="icon-name">Jaguar</h2></div>
+      <div class="cards"><h2 class="icon-name">Kia</h2></div>
+      <div class="cards"><h2 class="icon-name">Lamborghini</h2></div>
+      <div class="cards"><h2 class="icon-name">Lotus</h2></div>
+      <div class="cards"><h2 class="icon-name">Mercedes</h2></div>
+      <div class="cards"><h2 class="icon-name">Mini</h2></div>
+    </div>
+
+    <script src="slider.js"></script>
+  </body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JavaScript Search Filter</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="slider.css" />
+</head>
+
+<body>
+
+    <div id="myBtnContainer">
+        <button class="bt active" onclick="filterSelection('all')"> Show all</button>
+        <button class="bt" onclick="filterSelection('cars')"> Cars</button>
+        <button class="bt" onclick="filterSelection('animals')"> Animals</button>
+        <button class="bt" onclick="filterSelection('fruits')"> Fruits</button>
+        <button class="bt" onclick="filterSelection('colors')"> Colors</button>
+    </div>
+
+    <div class="main">
+        <div class="filterDiv cars">BMW</div>
+        <div class="filterDiv colors fruits">Orange</div>
+        <div class="filterDiv cars">Volvo</div>
+        <div class="filterDiv colors">Red</div>
+        <div class="filterDiv cars">Ford</div>
+        <div class="filterDiv colors">Blue</div>
+        <div class="filterDiv animals">Cat</div>
+        <div class="filterDiv animals">Dog</div>
+        <div class="filterDiv fruits">Melon</div>
+        <div class="filterDiv fruits animals">Kiwi</div>
+        <div class="filterDiv fruits">Banana</div>
+        <div class="filterDiv fruits">Lemon</div>
+        <div class="filterDiv animals">Cow</div>
+    </div>
+
+    <script src="slider.js"></script>
+</body>
+
+</html> 
+
+
+
+
